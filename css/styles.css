@@ -1,3 +1,26 @@
+html{
+    font-family: system-ui;
+}
 main h1{
     color: coral;
+    width: 80%;
+    margin: 20px auto;
+}
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    color: #280057;
+}
+header nav ul{
+    width: 20vw;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: space-around;
 }
